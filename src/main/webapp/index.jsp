@@ -1,1019 +1,630 @@
+
 <!DOCTYPE html>
-<html lang="fr">
-
+<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Link Style.css -->
-    <link rel="stylesheet" href="public/style.css">
-    <!-- Link Fontawesome -->
-    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
-    <!-- Script jQuery -->
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <!-- Link Fontawesome CDN -->
-    <link rel=" stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
-        integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
-
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
-    <link rel="stylesheet"
-        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
-    <title>MAFCONCEPT</title>
-    <!-- Favicons -->
-    <link href="./public/images/favicon.png" rel="icon">
+<meta charset="utf-8" />
+<meta name="viewport"
+	content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+<meta name="description" content="" />
+<meta name="author" content="" />
+<title>Freelancer - Start Bootstrap Theme</title>
+<!-- Favicon-->
+<link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+<!-- Font Awesome icons (free version)-->
+<script src="https://use.fontawesome.com/releases/v5.15.4/js/all.js"
+	crossorigin="anonymous"></script>
+<!-- Google fonts-->
+<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700"
+	rel="stylesheet" type="text/css" />
+<link
+	href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic"
+	rel="stylesheet" type="text/css" />
+<!-- Core theme CSS (includes Bootstrap)-->
+<link href="css/index-styles.css" rel="stylesheet" />
 </head>
-
-<body>
-    <div class="bg"></div>
-
-    <div class="scroll-up-btn">
-        <i class="fas fa-angle-up"></i>
-    </div>
-
-    <!-- Splash Screen -->
-    <div class="intro" id="particles-js">
-        <h1 class="logoAc-header">
-            <span class="logoAc">MAF</span><span class="logoAc" style="color: red;">Concept</span>
-        </h1>
-    </div>
-
-    <!-- Menu Navigation -->
-    <nav class="navbar">
-        <div class="max-width">
-            <div class="logo"><a href="#Accueil">MAF<span>Concept</span></a></div>
-            <ul class="menu">
-                <li><a href="#Accueil" class="menu-btn">Accueil</a></li>
-                <li><a href="#QSJ" class="menu-btn">Qui suis-je</a></li>
-                <li><a href="#Competences" class="menu-btn">Competences</a></li>
-                <li><a href="#Projets" class="menu-btn">Projets</a></li>
-                <!-- <li><a href="#Services" class="menu-btn">Services</a></li> -->
-                <li><a href="#Autres" class="menu-btn">Autres</a></li>
-                <li><a href="#Contact" class="menu-btn">Contact</a></li>
-            </ul>
-            <div class="menu-btn">
-                <i class="fas fa-bars"></i>
-            </div>
-        </div>
-    </nav>
-
-    <!--Section Accueil-->
-    <section class="home" id="Accueil">
-        <div class="max-width">
-            <div class="home-content">
-                <div class="text-1">Bonjour👋, je m'appelle</div>
-                <div class="text-2">Mohamed Abdallah FALL</div>
-                <div class="text-3">Développeur <span id="text3"></span></div>
-                <div class="text-3">Elève Ingenieur <span id="text4"></span></div>
-                <div class="sm">
-                    <a href="https://web.facebook.com/mohamedabdallah.fall" target="_blank"><i
-                            class="fab fa-facebook-f"></i></a>
-                    <a href="https://twitter.com/Mohamed48166481" target="_blank"><i class="fab fa-twitter"></i></i></a>
-                    <a href="https://www.linkedin.com/in/mohamed-abdallah-fall-61b6a020a/" target="_blank"><i
-                            class="fab fa-linkedin-in"></i></a>
-                    <a href="https://github.com/AbdallahMaf" target="_blank"><i class="fab fa-github"></i></a>
-                    <a href="https://gitlab.com/AbdallahMaf" target="_blank"><i class="fab fa-gitlab"></i></a>
-                </div>
-                <div class="card middle">
-                    <div class="front">
-                        <img class="maf-concept" src="public/images/img.png" alt="">
-                    </div>
-                    <div class="back">
-                        <img class="photo" src="public/manAfricaTech.jpg" alt="">
-                        <div class="back-content">
-                            <h2>Mohamed Abdallah FALL</h2>
-                            <span>Ingenieur Informatique</span>
-                            <div class="sm">
-                                <a href="https://twitter.com/Mohamed48166481" target="_blank"><i
-                                        class="fab fa-twitter"></i></a>
-                                <a href="https://www.linkedin.com/in/mohamed-abdallah-fall-61b6a020a/"
-                                    target="_blank"><i class="fab fa-linkedin-in"></i></a>
-                                <a href="https://github.com/AbdallahMaf" target="_blank"><i
-                                        class="fab fa-github"></i></a>
-                                <a href="https://t.me/MAF_Abdallah" target="_blank"><i class="fab fa-telegram"></i></a>
-                                <a href="https://api.whatsapp.com/send?phone=221777736698" target="_blank"><i
-                                        class="fab fa-whatsapp"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-
-        </div>
-    </section>
-
-    <!-- Section QSJ -->
-    <section class="qsj" id="QSJ">
-        <div class="max-width">
-            <h2 class="title">Qui suis-je ?</h2>
-            <div class="qsj-content">
-                <div class="column left">
-                    <img src="public/images/tof-removebg.png" alt="">
-                </div>
-                <div class="column right">
-                    <div class="text">Je m'appelle Mohamed Abdallah FALL et je suis Developpeur <span id="text5"></span>
-                    </div>
-                    <p>Passionné par les nouvelles technologies de l'information et de la communication.
-                        J'aime tout ce qui est en rapport avec le domaine de l'informatique. Titulaire d'un certificat
-                        professionnel en développement web ainsi qu'une licence professionnelle en Informatique de
-                        Gestion, je poursuis actuellement mes études en Ingénierie informatique à l'<strong>Institut
-                            Superieur de l'Informatique (ISI)</strong>.
-                        Je suis actuellement <strong>Developpeur logiciel (DHIS2) & Integrateur Systeme
-                            d'Information</strong> à la <strong>DPRS/DSISS
-                            MSAS</strong>.<br>
-                        J'ai aussi travaillé à Zappik Inno-Angels en temps que Developpeur Web et Mobile.<br>
-                        Je possède également des compétences en analyse et gestion de données et en administration de
-                        base de données...
-                    </p>
-                    <a href="#QJS" class="contact-link" data-productid="1"><i class="fas fa-download"></i> Voir mon
-                        CV</a>
-                </div>
-            </div>
-
-            <div class="contactqjs" id="1">
-                <div class="text">Me Contcter</div>
-                <form action="#">
-                    <div class="fields">
-                        <div class="field name">
-                            <input type="text" placeholder="Nom" required>
-                        </div>
-                        <div class="field email">
-                            <input type="text" placeholder="Prenom" required>
-                        </div>
-                    </div>
-                    <div class="fields">
-                        <div class="field name">
-                            <input type="email" placeholder="Email" required>
-                        </div>
-                        <div class="field email">
-                            <input type="tel" placeholder="Telephone" required>
-                        </div>
-                    </div>
-
-                    <div class="field">
-                        <input type="text" placeholder="Objet" required>
-                    </div>
-                    <div class="field textarea">
-                        <textarea cols="30" rows="10" placeholder="Message" required></textarea>
-                    </div>
-                    <div class="button">
-                        <button type="submit">Envoyer Message</button>
-                    </div>
-                    <div class="sm">
-                        <a href="https://web.facebook.com/mohamedabdallah.fall" target="_blank"><i
-                                class="fab fa-facebook-f"></i></a>
-                        <a href="https://twitter.com/Mohamed48166481" target="_blank"><i
-                                class="fab fa-twitter"></i></i></a>
-                        <a href="https://www.linkedin.com/in/mohamed-abdallah-fall-61b6a020a/" target="_blank"><i
-                                class="fab fa-linkedin-in"></i></a>
-                        <a href="https://t.me/MAF_Abdallah" target="_blank"><i class="fab fa-telegram"></i></a>
-                        <a href="https://api.whatsapp.com/send?phone=221777736698" target="_blank"><i
-                                class="fab fa-whatsapp"></i></a>
-                    </div>
-                </form>
-            </div>
-        </div>
-        </div>
-    </section>
-
-
-    <!-- Section Competences -->
-    <section class="competences" id="Competences">
-        <div class="max-width">
-            <h2 class="title">Mes Competences</h2>
-            <div class="home-content">
-                <div class="text-1" style="margin-top: 40px;">
-                    <h3 class="textCompetences1">Les technologies que j'utilise... <i class="fa-solid fa-laptop-code"
-                            style="color: red; font-size: xx-large;"></i>
-                    </h3>
-                </div>
-            </div>
-            <div class="carousel owl-carousel">
-                <div class="cards">
-                    <div class="box">
-                        <img src="public/html.png" alt="">
-                        <div class="text">HTML</div>
-                        <p>Developpement Web</p>
-                        <p>Front-End <i class="fas fa-code" style="color: red;"></i></p>
-                        <div class="rating">
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="cards">
-                    <div class="box">
-                        <img src="public/css.png" alt="">
-                        <div class="text">CSS</div>
-                        <p>Developpement Web</p>
-                        <p>Front-End <i class="fas fa-code" style="color: red;"></i></p>
-                        <div class="rating">
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="cards">
-                    <div class="box">
-                        <img src="public/js.png" alt="">
-                        <div class="text">JavaScript</div>
-                        <p>Developpement Web</p>
-                        <p>Front-End <i class="fas fa-code" style="color: red;"></i></p>
-                        <div class="rating">
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="far fa-star"></i>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="cards">
-                    <div class="box">
-                        <img src="public/bootstrap-logo.png" alt="">
-                        <div class="text">Bootstrap</div>
-                        <p>Developpement Web</p>
-                        <p>Front-End <i class="fas fa-code" style="color: red;"></i></p>
-                        <div class="rating">
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="far fa-star"></i>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="cards">
-                    <div class="box">
-                        <img src="public/php.png" alt="">
-                        <div class="text">PHP</div>
-                        <p>Developpement Web</p>
-                        <p>Back-End <i class="fas fa-code" style="color: red;"></i></p>
-                        <div class="rating">
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="far fa-star"></i>
-                            <i class="far fa-star"></i>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="cards">
-                    <div class="box">
-                        <img src="public/mysql.png" alt="">
-                        <div class="text">MySQL</div>
-                        <p>Developpement Web</p>
-                        <p>Back-End <i class="fas fa-code" style="color: red;"></i></p>
-                        <div class="rating">
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="cards">
-                    <div class="box">
-                        <img src="public/Python.png" alt="">
-                        <div class="text">Python</div>
-                        <p>Developpement Web</p>
-                        <p>Back-End <i class="fas fa-code" style="color: red;"></i></p>
-                        <div class="rating">
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="far fa-star"></i>
-                            <i class="far fa-star"></i>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="cards">
-                    <div class="box">
-                        <img src="public/java2.png" alt="">
-                        <div class="text">Java</div>
-                        <p>Developpement Mobile</p>
-                        <p>Front & Back-End <i class="fas fa-code" style="color: red;"></i></p>
-                        <div class="rating">
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="far fa-star"></i>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="cards">
-                    <div class="box">
-                        <img src="public/mongo.png" alt="">
-                        <div class="text">Mongodb</div>
-                        <p>Developpement Web</p>
-                        <p>Back-End <i class="fas fa-code" style="color: red;"></i></p>
-                        <div class="rating">
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="far fa-star"></i>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="cards">
-                    <div class="box">
-                        <img src="public/express.png" alt="">
-                        <div class="text">ExpressJs</div>
-                        <p>Developpement Web</p>
-                        <p>Back-End <i class="fas fa-code" style="color: red;"></i></p>
-                        <div class="rating">
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="far fa-star"></i>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="cards">
-                    <div class="box">
-                        <img src="public/angular.png" alt="">
-                        <div class="text">Angular</div>
-                        <p>Developpement Web</p>
-                        <p>Front-End <i class="fas fa-code" style="color: red;"></i></p>
-                        <div class="rating">
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="far fa-star"></i>
-                            <i class="far fa-star"></i>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="cards">
-                    <div class="box">
-                        <img src="public/node.png" alt="">
-                        <div class="text">NodeJs</div>
-                        <p>Developpement Web</p>
-                        <p>Back-End <i class="fas fa-code" style="color: red;"></i></p>
-                        <div class="rating">
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="far fa-star"></i>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="cards">
-                    <div class="box">
-                        <img src="public/kotlin.png" alt="">
-                        <div class="text">Kotlin</div>
-                        <p>Developpement Mobile</p>
-                        <p>Front-End <i class="fas fa-code" style="color: red;"></i></p>
-                        <div class="rating">
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="far fa-star"></i>
-                            <i class="far fa-star"></i>
-                            <i class="far fa-star"></i>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="cards">
-                    <div class="box">
-                        <img src="public/dart1.png" alt="">
-                        <div class="text">Dart</div>
-                        <p>Developpement Mobile</p>
-                        <p>Front-End <i class="fas fa-code" style="color: red;"></i></p>
-                        <div class="rating">
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="far fa-star"></i>
-                            <i class="far fa-star"></i>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="cards">
-                    <div class="box">
-                        <img src="public/flutter.png" alt="">
-                        <div class="text">Flutter</div>
-                        <p>Developpement Mobile</p>
-                        <p>Front-End <i class="fas fa-code" style="color: red;"></i></p>
-                        <div class="rating">
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="far fa-star"></i>
-                            <i class="far fa-star"></i>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="cards">
-                    <div class="box">
-                        <img src="public/firebase.png" alt="">
-                        <div class="text">Firebase</div>
-                        <p>Developpement Mobile</p>
-                        <p>Back-End <i class="fas fa-code" style="color: red;"></i></p>
-                        <div class="rating">
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="far fa-star"></i>
-                            <i class="far fa-star"></i>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="cards">
-                    <div class="box">
-                        <img src="public/laravel_red-removebg-preview.png" alt="">
-                        <div class="text">Laravel</div>
-                        <p>Developpement Web</p>
-                        <p>Back-End <i class="fas fa-code" style="color: red;"></i></p>
-                        <div class="rating">
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="far fa-star"></i>
-                            <i class="far fa-star"></i>
-                            <i class="far fa-star"></i>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="cards">
-                    <div class="box">
-                        <img src="public/symfony-b.png" alt="">
-                        <div class="text">Symfony</div>
-                        <p>Developpement Web</p>
-                        <p>Back-End <i class="fas fa-code" style="color: red;"></i></p>
-                        <div class="rating">
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="far fa-star"></i>
-                            <i class="far fa-star"></i>
-                            <i class="far fa-star"></i>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="cards">
-                    <div class="box">
-                        <img src="public/wordpress.png" alt="">
-                        <div class="text">Wordpress</div>
-                        <p>Developpement web</p>
-                        <p>CMS <i class="fas fa-code" style="color: red;"></i></p>
-                        <div class="rating">
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="far fa-star"></i>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="cards">
-                    <div class="box">
-                        <img src="public/dolibarr.png" alt="">
-                        <div class="text">Dolibarr</div>
-                        <p>ERP/CRM</p>
-                        <p>PGI-GRC-SaaS <i class="fas fa-code" style="color: red;"></i></p>
-                        <div class="rating">
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="far fa-star"></i>
-                            <i class="far fa-star"></i>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="competences-content">
-                <div class="text-2" style="margin-top: 100px;">
-                    <h3 class="textCompetences2">Les outils que j'utilise pour la plupart de mes
-                        projets... <i class="fa-solid fa-laptop-code" style="color: red; font-size: xx-large;"></i>
-                    </h3>
-                </div>
-            </div>
-            <div class="carousel owl-carousel">
-                <div class="cards">
-                    <div class="box">
-                        <img src="public/vscode2-removebg-preview.png" alt="">
-                        <div class="text">Vscode</div>
-                    </div>
-                </div>
-
-                <div class="cards">
-                    <div class="box">
-                        <img src="public/androidStudio.png" alt="">
-                        <div class="text">Android-Studio</div>
-                    </div>
-                </div>
-
-                <div class="cards">
-                    <div class="box">
-                        <img src="public/eclipse.png" alt="">
-                        <div class="text">Eclispe</div>
-                    </div>
-                </div>
-
-                <div class="cards">
-                    <div class="box">
-                        <img src="public/pycharmpy-removebg-preview.png" alt="">
-                        <div class="text">PyCharm</div>
-                    </div>
-                </div>
-
-                <div class="cards">
-                    <div class="box">
-                        <img src="public/intelliJ-removebg-preview.png" alt="">
-                        <div class="text">IntelliJ IDEA</div>
-                    </div>
-                </div>
-
-                <div class="cards">
-                    <div class="box">
-                        <img src="public/git1.png" alt="">
-                        <div class="text">Git</div>
-                    </div>
-                </div>
-
-                <div class="cards">
-                    <div class="box">
-                        <img src="public/npm-logo.png" alt="">
-                        <div class="text">npm</div>
-                    </div>
-                </div>
-
-                <div class="cards">
-                    <div class="box">
-                        <img src="public/figma-logo-removebg-preview.png" alt="">
-                        <div class="text">Figma</div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-
-    <!-- Section Projets -->
-    <section class="projets" id="Projets">
-        <div class="max-width">
-            <h2 class="title">Projets & Realisations</h2>
-            <div class="text-1" style="margin-top: 40px;">
-                <h3>Voici quelques exemples de mes réalisations personnelles et professionnelles... <i
-                        class="fas fa-code" style="color: red; font-size: x-large;"></i>
-                </h3>
-            </div>
-            <div class="projets-content">
-                <div class="cards">
-                    <div class="box">
-                        <i class="fas fa-mobile-alt"></i>
-                        <div class="text">Kay'Diangg</div>
-                        <p>Kay'Diangg est une application mobile, qui est un outil pedagogique pour l'enseignement
-                            secondaire basé sur Android.</p>
-                        <a href="#Projets" class="projetModalDesc-link" data-productid="2">Savoir plus</a>
-                    </div>
-                </div>
-                <div class="projetModalDesc" id="2">
-                    <div class="cont">
-                        <div class="box">
-                            <div class="img-Box">
-                                <img src="./public/images/kaydiangg.png" alt="">
-                            </div>
-                            <div class="content-Box">
-                                <h6 class="text">Kay'Diangg</h6>
-                                <p>Kay'Diangg est une application mobile, qui est un outil pedagogique pour
-                                    l'enseignement
-                                    secondaire basé sur Android et développée avec le langage JAVA.</p>
-                                <div class="sm">
-                                    <a href="https://github.com/AbdallahMaf" target="_blank"><i
-                                            class="fab fa-github"></i></a>
-                                    <a href="https://gitlab.com/AbdallahMaf" target="_blank"><i
-                                            class="fab fa-gitlab"></i></a>
-                                    <a href="https://github.com/AbdallahMaf" target="_blank"><i
-                                            class="fa-solid fa-link"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="cards">
-                    <div class="box">
-                        <i class="fa fa-laptop"></i>
-                        <div class="text">MAFConcept</div>
-                        <p>Mon site web en meme temps portfolio que j'ai conçu pour presenter mes competences et les
-                            projets sur les quels j'ai eu a travailler...</p>
-                        <a href="#Projets" class="projetModalDesc-link" data-productid="3">Savoir plus</a>
-                    </div>
-                </div>
-                <div class="projetModalDesc" id="3">
-                    <div class="cont">
-                        <div class="box">
-                            <div class="img-Box">
-                                <img src="./public/images/MAFConcept2.jfif" alt="" width="100%" height="100%">
-                            </div>
-                            <div class="content-Box">
-                                <h6 class="text">MAFConcept</h6>
-                                <p>Mon site web en meme temps portfolio que j'ai conçu pour presenter mes competences et
-                                    les
-                                    projets sur les quels j'ai eu a travailler en temps que developpeur full-stack...
-                                    Partager mon experiences avec mes futurs collaborateurs</p>
-                                <div class="sm">
-                                    <a href="https://github.com/AbdallahMaf" target="_blank"><i
-                                            class="fab fa-github"></i></a>
-                                    <a href="https://gitlab.com/AbdallahMaf" target="_blank"><i
-                                            class="fab fa-gitlab"></i></a>
-                                    <a href="https://abdallahmaf.github.io/MAFConcept/" target="_blank"><i
-                                            class="fa-solid fa-link"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="cards">
-                    <div class="box">
-                        <i class="fas fa-database"></i>
-                        <div class="text">DAF-MSI</div>
-                        <p>Plateforme de Gestion Electronique de Documents pour la DAF (Direction de
-                            l'Automatisation
-                            des Fichiers), Ministere de l'Interieur.</p>
-                        <a href="#Projets" class="projetModalDesc-link" data-productid="4">Savoir plus</a>
-                    </div>
-                </div>
-                <div class="projetModalDesc" id="4">
-                    <div class="cont">
-                        <div class="box">
-                            <div class="img-Box">
-                                <img src="./public/DAF-MSI.jpeg" alt="">
-                            </div>
-                            <div class="content-Box">
-                                <h6 class="text">DAF-MSI</h6>
-                                <p>DAF-MSI est une plateforme de Gestion Electronique de Documents développée avec l'ERP
-                                    Dolibarr pour la DAF
-                                    (Direction de l'Automatisation
-                                    des Fichiers), Ministere de l'Interieur.</p>
-                                <div class="sm">
-                                    <a href="https://github.com/AbdallahMaf" target="_blank"><i
-                                            class="fab fa-github"></i></a>
-                                    <a href="https://gitlab.com/AbdallahMaf" target="_blank"><i
-                                            class="fab fa-gitlab"></i></a>
-                                    <a href="https://github.com/AbdallahMaf" target="_blank"><i
-                                            class="fa-solid fa-link"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="cards">
-                    <div class="box">
-                        <i class="fab fa-dev"></i>
-                        <div class="text">Manifeste</div>
-                        <p>Le Manifeste pour l'Innovation de l'Informatique de l'Etat du
-                            SENEGAL<br><strong>Projets:</strong> DAKAR 2050, Scratch si Wolof, App for city hall... </p>
-                        <a href="#Projets" class="projetModalDesc-link" data-productid="5">Savoir plus</a>
-                    </div>
-                </div>
-                <div class="projetModalDesc" id="5">
-                    <div class="cont">
-                        <div class="box">
-                            <div class="img-Box">
-                                <img src="./public/images/github2.webp" alt="" width="100%" height="100%">
-                            </div>
-                            <div class="content-Box">
-                                <h6 class="text">Manifeste</h6>
-                                <p>Le Manifeste pour l'Innovation de l'Informatique de l'Etat du
-                                    SENEGAL<br><strong>Projets:</strong>
-                                <ul style="color: black; list-style: none;">
-                                    <li>Scratch si Wolof</li>
-                                    <li>Code pour le Sénégal patterns</li>
-                                    <li>App for city hall</li>
-                                    <li>OpenCOVID19 Senegal</li>
-                                    <li>Dakar 2050</li>
-                                </ul>
-                                </p>
-                                <div class="sm">
-                                    <a href="https://github.com/AbdallahMaf/manifeste" target="_blank"><i
-                                            class="fab fa-github"></i></a>
-                                    <a href="https://gitlab.com/AbdallahMaf" target="_blank"><i
-                                            class="fab fa-gitlab"></i></a>
-                                    <a href="https://github.com/AbdallahMaf/manifeste" target="_blank"><i
-                                            class="fa-solid fa-link"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="cards">
-                    <div class="box">
-                        <i class="fas fa-envelope"></i>
-                        <div class="text">e-Courrier</div>
-                        <p><strong>PSEJ</strong><br>
-                            Application Gestion de Courrier pour le Ministère des Finances et du Budget du Sénégal.
-                        </p>
-                        <a href="#Projets" class="projetModalDesc-link" data-productid="6">Savoir plus</a>
-                    </div>
-                </div>
-                <div class="projetModalDesc" id="6">
-                    <div class="cont">
-                        <div class="box">
-                            <div class="img-Box">
-                                <img src="./public/images/PSEJ.png" alt="" width="100%" height="100%">
-                            </div>
-                            <div class="content-Box">
-                                <h6 class="text">e-Courrier</h6>
-                                <p><strong>PSEJ</strong> (Programme Senegalais pour l'Entreprenariat des Jeunes)<br>
-                                    <strong>e-Courrier</strong> est une application de Gestion de Courrier pour le
-                                    Ministère des Finances
-                                    et du Budget du
-                                    Sénégal.
-                                </p>
-                                <div class="sm">
-                                    <a href="https://github.com/AbdallahMaf" target="_blank"><i
-                                            class="fab fa-github"></i></a>
-                                    <a href="https://gitlab.com/AbdallahMaf" target="_blank"><i
-                                            class="fab fa-gitlab"></i></a>
-                                    <a href="https://github.com/AbdallahMaf" target="_blank"><i
-                                            class="fa-solid fa-link"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="cards">
-                    <div class="box">
-                        <i class="fas fa-mobile-alt"></i>
-                        <div class="text">Yesboro</div>
-                        <p>Simulez votre crédit et faites votre demande
-                            de prêt via l'application mobile sans entrer un seul texte dans un formulaire!.</p>
-                        <a href="#Projets" class="projetModalDesc-link" data-productid="7">Savoir plus</a>
-                    </div>
-                </div>
-                <div class="projetModalDesc" id="7">
-                    <div class="cont">
-                        <div class="box">
-                            <div class="img-Box">
-                                <img src="./public/images/Yesboro.png" alt="" height="100%">
-                            </div>
-                            <div class="content-Box">
-                                <h6 class="text">Yesboro</h6>
-                                <p><strong>Inno-Angels</strong><br>Yesboro est une
-                                    application mobile développée avec
-                                    Flutter...<br>
-                                    Simulez votre crédit et faites votre demande
-                                    de prêt via l'application mobile sans entrer un seul texte dans un formulaire!
-                                </p>
-                                <div class="sm">
-                                    <a href="https://github.com/AbdallahMaf" target="_blank"><i
-                                            class="fab fa-github"></i></a>
-                                    <a href="https://gitlab.com/AbdallahMaf" target="_blank"><i
-                                            class="fab fa-gitlab"></i></a>
-                                    <a href="https://yesboro.com/" target="_blank"><i class="fa-solid fa-link"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="cards">
-                    <div class="box">
-                        <i class="fa fa-laptop"></i>
-                        <div class="text">OCBRSN2022 BY <br>#rootSN</div>
-                        <p>Octobre Cyber by #rootsn est une activité que nous organisons durant tout le mois de la
-                            cybersécurité...</p>
-                        <a href="#Projets" class="projetModalDesc-link" data-productid="8">Savoir plus</a>
-                    </div>
-                </div>
-                <div class="projetModalDesc" id="8">
-                    <div class="cont">
-                        <div class="box">
-                            <div class="img-Box">
-                                <img src="./public/images/OCBRSN2022_.JPG" alt="" height="100%">
-                            </div>
-                            <div class="content-Box">
-                                <h6 class="text">OCBRSN2022 BY <br>#rootSN</h6>
-                                <p>Octobre Cyber by #rootsn est une activité que nous organisons durant tout le mois de
-                                    la cybersécurité. <br> C'est une occasion pour nous d'intensifier les messages de
-                                    sensibilisation que nous faisons passer tous les jours de l'année.
-                                </p>
-                                <div class="sm">
-                                    <a href="https://github.com/AbdallahMaf" target="_blank"><i
-                                            class="fab fa-github"></i></a>
-                                    <a href="https://gitlab.com/AbdallahMaf" target="_blank"><i
-                                            class="fab fa-gitlab"></i></a>
-                                    <a href="https://octobrecyber-byrootsn.com/" target="_blank"><i
-                                            class="fa-solid fa-link"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-    </section>
-
-    <!-- Section Services -->
-    <!-- <section class="contact" id="Services">
-        <div class="max-width">
-            <h2 class="title">Services</h2>
-        </div>
-    </section> -->
-
-    <!-- Section Autres -->
-    <section class="autres" id="Autres">
-        <div class="max-width">
-            <h2 class="title">Autres</h2>
-            <div class="autres-content">
-                <div class="column left" style="margin-top: 30px;">
-                    <img src="public/images/gif2.gif" alt="">
-                </div>
-                <div class="column right" style="margin-top: 50px;">
-                    <div class="text">Mohamed Abdallah FALL est aussi un <span id="text6"></span></div>
-                    <p> Je pratique regulierement du <span>KARATE</span>🥋 en competition depuis plus de 13 ans.
-                        Karateka ceinture noire 1er DAN, membre de l'equipe nationale Espoirs U21 de 2018 à 2019 et
-                        aussi de l'equipe nationale Seniors depuis 2018...<br> J'ai aussi été Champion du SENEGAL Kumité
-                        (combat)
-                        chez les Seniors.<br> Trois fois champion de la coupe du SENEGAL Kumité et aussi champion de la
-                        coupe du President de la FSKDA...
-                    </p>
-                    <a href="#Autres" class="contact-link" data-productid="9">Savoir plus</a>
-                </div>
-            </div>
-        </div>
-    </section>
-
-
-    <!-- Section Contact -->
-    <section class="contact" id="Contact">
-        <div class="max-width">
-            <h2 class="title">Contact</h2>
-            <div class="contact-content">
-                <div class="column left">
-                    <div class="text">Me Contacter</div>
-                    <p>Une question ? Une remarque ? Laissez moi un message !<br>Merci...!!!</p>
-                    <div class="icons">
-
-                        <div class="row">
-                            <i class="fas fa-map-marker-alt"></i>
-                            <div class="info">
-                                <div class="head">Adresse</div>
-                                <div class="sub-title">Fann Hock Dakar-SENEGAL</div>
-                            </div>
-                        </div>
-
-                        <div class="row">
-                            <i class="fas fa-phone"></i>
-                            <div class="info">
-                                <div class="head">Telephone</div>
-                                <div class="sub-title">+221 77 773 66 98</div>
-                            </div>
-                        </div>
-
-                        <div class="row">
-                            <i class="fas fa-envelope"></i>
-                            <div class="info">
-                                <div class="head">Email</div>
-                                <div class="sub-title">abdallahfall2020@gmail.com</div>
-                            </div>
-                        </div>
-
-                        <div class="row">
-                            <i class="fas fa-globe"></i>
-                            <div class="info">
-                                <div class="head">Site Web</div>
-                                <div class="sub-title">https://www.mafconcept.sn</div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="column right">
-                    <div class="text">Message</div>
-                    <form onsubmit="sendEmail(); reset(); return false;">
-                        <div class="fields">
-                            <div class="field name">
-                                <input type="text" placeholder="Nom" id="lastname" required>
-                            </div>
-                            <div class="field email">
-                                <input type="text" placeholder="Prenom" id="firstname" required>
-                            </div>
-                        </div>
-                        <div class="fields">
-                            <div class="field name">
-                                <input type="email" placeholder="Email" id="email" required>
-                            </div>
-                            <div class="field email">
-                                <input type="tel" placeholder="Telephone" id="phone" required>
-                            </div>
-                        </div>
-
-                        <div class="field">
-                            <input type="text" placeholder="Objet" id="Objet" required>
-                        </div>
-                        <div class="field textarea">
-                            <textarea cols="30" rows="10" placeholder="Message" id="message" required></textarea>
-                        </div>
-                        <div class="button">
-                            <button type="submit">Envoyer Message</button>
-                        </div>
-                        <div class="sm">
-                            <a href="https://web.facebook.com/mohamedabdallah.fall" target="_blank"><i
-                                    class="fab fa-facebook-f"></i></a>
-                            <a href="https://twitter.com/Mohamed48166481" target="_blank"><i
-                                    class="fab fa-twitter"></i></i></a>
-                            <a href="https://www.linkedin.com/in/mohamed-abdallah-fall-61b6a020a/" target="_blank"><i
-                                    class="fab fa-linkedin-in"></i></a>
-                            <a href="https://t.me/MAF_Abdallah" target="_blank"><i class="fab fa-telegram"></i></a>
-                            <a href="https://api.whatsapp.com/send?phone=221777736698" target="_blank"><i
-                                    class="fab fa-whatsapp"></i></a>
-                        </div>
-                    </form>
-                </div>
-            </div>
-        </div>
-    </section>
-
-
-    <!-- Section Footer -->
-    <footer>
-        <p>&copy; MAF<span>Concept</span> 2022 Tous droits réservés.</p>
-    </footer>
-
-
-    <!-- ScrollReveal -->
-    <script src="https://unpkg.com/scrollreveal"></script>
-
-    <!-- Script JS Page -->
-    <script src="./name.js"></script>
-    <script src="./particles.js"></script>
-    <script src="./app.js"></script>
-    <script src="./script.js"></script>
-    <script src="./modal.js"></script>
-
-    <!-- Swiper JS -->
-    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js"></script>
-
-
-    <!-- <script src="./node_modules/vanilla-tilt/dist/vanilla-tilt.js"></script> -->
-    <script>
-        VanillaTilt.init(document.querySelector(".box"), {
-            max: 30,
-            speed: 1000
-        });
-        VanillaTilt.init(document.querySelectorAll(".box"));
-    </script>
-
-    <!-- SMTPJs -->
-    <script src="https://smtpjs.com/v3/smtp.js"></script>
-    <script src="./sendmessge.js"></script>
-
-    <!-- <script>
-        Array.from(document.querySelectorAll(".left")).forEach((e) => {
-            const imgs = Array.from(e.querySelectorAll("img"));
-            new hoverEffect({
-                parent: e,
-                instensty: 0.3,
-                image1: imgs[0].getAttribute("src"),
-                image2: imgs[1].getAttribute("src"),
-                displacementImage: 'fluid.jpg'
-            });
-        })  
-    </script> -->
-
-
-
+<body id="page-top">
+	<!-- Navigation-->
+	<nav
+		class="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top"
+		id="mainNav">
+		<div class="container">
+			<a class="navbar-brand" href="#page-top">Unique Developer</a>
+			<button
+				class="navbar-toggler text-uppercase font-weight-bold bg-primary text-white rounded"
+				type="button" data-bs-toggle="collapse"
+				data-bs-target="#navbarResponsive" aria-controls="navbarResponsive"
+				aria-expanded="false" aria-label="Toggle navigation">
+				Menu <i class="fas fa-bars"></i>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarResponsive">
+				<ul class="navbar-nav ms-auto">
+					<li class="nav-item mx-0 mx-lg-1"><a
+						class="nav-link py-3 px-0 px-lg-3 rounded" href="#portfolio">Portfolio</a></li>
+					<li class="nav-item mx-0 mx-lg-1"><a
+						class="nav-link py-3 px-0 px-lg-3 rounded" href="#about">About</a></li>
+					<li class="nav-item mx-0 mx-lg-1"><a
+						class="nav-link py-3 px-0 px-lg-3 rounded" href="#contact">Contact</a></li>
+					<li class="nav-item mx-0 mx-lg-1"><a
+						class="nav-link py-3 px-0 px-lg-3 rounded" href="">Logout</a></li>
+					
+				</ul>
+			</div>
+		</div>
+	</nav>
+	<!-- Masthead-->
+	<header class="masthead bg-primary text-white text-center">
+		<div class="container d-flex align-items-center flex-column">
+			<!-- Masthead Avatar Image-->
+			<img class="masthead-avatar mb-5" src="assets/img/avataaars.svg"
+				alt="..." />
+			<!-- Masthead Heading-->
+			<h1 class="masthead-heading text-uppercase mb-0">Welcome To Unique Developer</h1>
+			<!-- Icon Divider-->
+			<div class="divider-custom divider-light">
+				<div class="divider-custom-line"></div>
+				<div class="divider-custom-icon">
+					<i class="fas fa-star"></i>
+				</div>
+				<div class="divider-custom-line"></div>
+			</div>
+			<!-- Masthead Subheading-->
+			<p class="masthead-subheading font-weight-light mb-0">Java
+				Development - Web Development - Python</p>
+		</div>
+	</header>
+	<!-- Portfolio Section-->
+	<section class="page-section portfolio" id="portfolio">
+		<div class="container">
+			<!-- Portfolio Section Heading-->
+			<h2
+				class="page-section-heading text-center text-uppercase text-secondary mb-0">Portfolio</h2>
+			<!-- Icon Divider-->
+			<div class="divider-custom">
+				<div class="divider-custom-line"></div>
+				<div class="divider-custom-icon">
+					<i class="fas fa-star"></i>
+				</div>
+				<div class="divider-custom-line"></div>
+			</div>
+			<!-- Portfolio Grid Items-->
+			<div class="row justify-content-center">
+				<!-- Portfolio Item 1-->
+				<div class="col-md-6 col-lg-4 mb-5">
+					<div class="portfolio-item mx-auto" data-bs-toggle="modal"
+						data-bs-target="#portfolioModal1">
+						<div
+							class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+							<div
+								class="portfolio-item-caption-content text-center text-white">
+								<i class="fas fa-plus fa-3x"></i>
+							</div>
+						</div>
+						<img class="img-fluid" src="assets/img/portfolio/cabin.png"
+							alt="..." />
+					</div>
+				</div>
+				<!-- Portfolio Item 2-->
+				<div class="col-md-6 col-lg-4 mb-5">
+					<div class="portfolio-item mx-auto" data-bs-toggle="modal"
+						data-bs-target="#portfolioModal2">
+						<div
+							class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+							<div
+								class="portfolio-item-caption-content text-center text-white">
+								<i class="fas fa-plus fa-3x"></i>
+							</div>
+						</div>
+						<img class="img-fluid" src="assets/img/portfolio/cake.png"
+							alt="..." />
+					</div>
+				</div>
+				<!-- Portfolio Item 3-->
+				<div class="col-md-6 col-lg-4 mb-5">
+					<div class="portfolio-item mx-auto" data-bs-toggle="modal"
+						data-bs-target="#portfolioModal3">
+						<div
+							class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+							<div
+								class="portfolio-item-caption-content text-center text-white">
+								<i class="fas fa-plus fa-3x"></i>
+							</div>
+						</div>
+						<img class="img-fluid" src="assets/img/portfolio/circus.png"
+							alt="..." />
+					</div>
+				</div>
+				<!-- Portfolio Item 4-->
+				<div class="col-md-6 col-lg-4 mb-5 mb-lg-0">
+					<div class="portfolio-item mx-auto" data-bs-toggle="modal"
+						data-bs-target="#portfolioModal4">
+						<div
+							class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+							<div
+								class="portfolio-item-caption-content text-center text-white">
+								<i class="fas fa-plus fa-3x"></i>
+							</div>
+						</div>
+						<img class="img-fluid" src="assets/img/portfolio/game.png"
+							alt="..." />
+					</div>
+				</div>
+				<!-- Portfolio Item 5-->
+				<div class="col-md-6 col-lg-4 mb-5 mb-md-0">
+					<div class="portfolio-item mx-auto" data-bs-toggle="modal"
+						data-bs-target="#portfolioModal5">
+						<div
+							class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+							<div
+								class="portfolio-item-caption-content text-center text-white">
+								<i class="fas fa-plus fa-3x"></i>
+							</div>
+						</div>
+						<img class="img-fluid" src="assets/img/portfolio/safe.png"
+							alt="..." />
+					</div>
+				</div>
+				<!-- Portfolio Item 6-->
+				<div class="col-md-6 col-lg-4">
+					<div class="portfolio-item mx-auto" data-bs-toggle="modal"
+						data-bs-target="#portfolioModal6">
+						<div
+							class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+							<div
+								class="portfolio-item-caption-content text-center text-white">
+								<i class="fas fa-plus fa-3x"></i>
+							</div>
+						</div>
+						<img class="img-fluid" src="assets/img/portfolio/submarine.png"
+							alt="..." />
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- About Section-->
+	<section class="page-section bg-primary text-white mb-0" id="about">
+		<div class="container">
+			<!-- About Section Heading-->
+			<h2
+				class="page-section-heading text-center text-uppercase text-white">About</h2>
+			<!-- Icon Divider-->
+			<div class="divider-custom divider-light">
+				<div class="divider-custom-line"></div>
+				<div class="divider-custom-icon">
+					<i class="fas fa-star"></i>
+				</div>
+				<div class="divider-custom-line"></div>
+			</div>
+			<!-- About Section Content-->
+			<div class="row">
+				<div class="col-lg-4 ms-auto">
+					<p class="lead">Freelancer is a free bootstrap theme created by
+						Start Bootstrap. The download includes the complete source files
+						including HTML, CSS, and JavaScript as well as optional SASS
+						stylesheets for easy customization.</p>
+				</div>
+				<div class="col-lg-4 me-auto">
+					<p class="lead">You can create your own custom avatar for the
+						masthead, change the icon in the dividers, and add your email
+						address to the contact form to make it fully functional!</p>
+				</div>
+			</div>
+			<!-- About Section Button-->
+			<div class="text-center mt-4">
+				<a class="btn btn-xl btn-outline-light"
+					href="https://startbootstrap.com/theme/freelancer/"> <i
+					class="fas fa-download me-2"></i> Free Download!
+				</a>
+			</div>
+		</div>
+	</section>
+	<!-- Contact Section-->
+	<section class="page-section" id="contact">
+		<div class="container">
+			<!-- Contact Section Heading-->
+			<h2
+				class="page-section-heading text-center text-uppercase text-secondary mb-0">Contact
+				Me</h2>
+			<!-- Icon Divider-->
+			<div class="divider-custom">
+				<div class="divider-custom-line"></div>
+				<div class="divider-custom-icon">
+					<i class="fas fa-star"></i>
+				</div>
+				<div class="divider-custom-line"></div>
+			</div>
+			<!-- Contact Section Form-->
+			<div class="row justify-content-center">
+				<div class="col-lg-8 col-xl-7">
+					<!-- * * * * * * * * * * * * * * *-->
+					<!-- * * SB Forms Contact Form * *-->
+					<!-- * * * * * * * * * * * * * * *-->
+					<!-- This form is pre-integrated with SB Forms.-->
+					<!-- To make this form functional, sign up at-->
+					<!-- https://startbootstrap.com/solution/contact-forms-->
+					<!-- to get an API token!-->
+					<form id="contactForm" data-sb-form-api-token="API_TOKEN">
+						<!-- Name input-->
+						<div class="form-floating mb-3">
+							<input class="form-control" id="name" type="text"
+								placeholder="Enter your name..." data-sb-validations="required" />
+							<label for="name">Full name</label>
+							<div class="invalid-feedback" data-sb-feedback="name:required">A
+								name is required.</div>
+						</div>
+						<!-- Email address input-->
+						<div class="form-floating mb-3">
+							<input class="form-control" id="email" type="email"
+								placeholder="name@example.com"
+								data-sb-validations="required,email" /> <label for="email">Email
+								address</label>
+							<div class="invalid-feedback" data-sb-feedback="email:required">An
+								email is required.</div>
+							<div class="invalid-feedback" data-sb-feedback="email:email">Email
+								is not valid.</div>
+						</div>
+						<!-- Phone number input-->
+						<div class="form-floating mb-3">
+							<input class="form-control" id="phone" type="tel"
+								placeholder="(123) 456-7890" data-sb-validations="required" />
+							<label for="phone">Phone number</label>
+							<div class="invalid-feedback" data-sb-feedback="phone:required">A
+								phone number is required.</div>
+						</div>
+						<!-- Message input-->
+						<div class="form-floating mb-3">
+							<textarea class="form-control" id="message" type="text"
+								placeholder="Enter your message here..." style="height: 10rem"
+								data-sb-validations="required"></textarea>
+							<label for="message">Message</label>
+							<div class="invalid-feedback" data-sb-feedback="message:required">A
+								message is required.</div>
+						</div>
+						<!-- Submit success message-->
+						<!---->
+						<!-- This is what your users will see when the form-->
+						<!-- has successfully submitted-->
+						<div class="d-none" id="submitSuccessMessage">
+							<div class="text-center mb-3">
+								<div class="fw-bolder">Form submission successful!</div>
+								To activate this form, sign up at <br /> <a
+									href="https://startbootstrap.com/solution/contact-forms">https://startbootstrap.com/solution/contact-forms</a>
+							</div>
+						</div>
+						<!-- Submit error message-->
+						<!---->
+						<!-- This is what your users will see when there is-->
+						<!-- an error submitting the form-->
+						<div class="d-none" id="submitErrorMessage">
+							<div class="text-center text-danger mb-3">Error sending
+								message!</div>
+						</div>
+						<!-- Submit Button-->
+						<button class="btn btn-primary btn-xl disabled" id="submitButton"
+							type="submit">Send</button>
+					</form>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- Footer-->
+	<footer class="footer text-center">
+		<div class="container">
+			<div class="row">
+				<!-- Footer Location-->
+				<div class="col-lg-4 mb-5 mb-lg-0">
+					<h4 class="text-uppercase mb-4">Location</h4>
+					<p class="lead mb-0">
+						2215 John Daniel Drive <br /> Clark, MO 65243
+					</p>
+				</div>
+				<!-- Footer Social Icons-->
+				<div class="col-lg-4 mb-5 mb-lg-0">
+					<h4 class="text-uppercase mb-4">Around the Web</h4>
+					<a class="btn btn-outline-light btn-social mx-1" href="#!"><i
+						class="fab fa-fw fa-facebook-f"></i></a> <a
+						class="btn btn-outline-light btn-social mx-1" href="#!"><i
+						class="fab fa-fw fa-twitter"></i></a> <a
+						class="btn btn-outline-light btn-social mx-1" href="#!"><i
+						class="fab fa-fw fa-linkedin-in"></i></a> <a
+						class="btn btn-outline-light btn-social mx-1" href="#!"><i
+						class="fab fa-fw fa-dribbble"></i></a>
+				</div>
+				<!-- Footer About Text-->
+				<div class="col-lg-4">
+					<h4 class="text-uppercase mb-4">About Freelancer</h4>
+					<p class="lead mb-0">
+						Freelance is a free to use, MIT licensed Bootstrap theme created
+						by <a href="http://startbootstrap.com">Start Bootstrap</a> .
+					</p>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<!-- Copyright Section-->
+	<div class="copyright py-4 text-center text-white">
+		<div class="container">
+			<small>Copyright &copy; Your Website 2021</small>
+		</div>
+	</div>
+	<!-- Portfolio Modals-->
+	<!-- Portfolio Modal 1-->
+	<div class="portfolio-modal modal fade" id="portfolioModal1"
+		tabindex="-1" aria-labelledby="portfolioModal1" aria-hidden="true">
+		<div class="modal-dialog modal-xl">
+			<div class="modal-content">
+				<div class="modal-header border-0">
+					<button class="btn-close" type="button" data-bs-dismiss="modal"
+						aria-label="Close"></button>
+				</div>
+				<div class="modal-body text-center pb-5">
+					<div class="container">
+						<div class="row justify-content-center">
+							<div class="col-lg-8">
+								<!-- Portfolio Modal - Title-->
+								<h2
+									class="portfolio-modal-title text-secondary text-uppercase mb-0">Log
+									Cabin</h2>
+								<!-- Icon Divider-->
+								<div class="divider-custom">
+									<div class="divider-custom-line"></div>
+									<div class="divider-custom-icon">
+										<i class="fas fa-star"></i>
+									</div>
+									<div class="divider-custom-line"></div>
+								</div>
+								<!-- Portfolio Modal - Image-->
+								<img class="img-fluid rounded mb-5"
+									src="assets/img/portfolio/cabin.png" alt="..." />
+								<!-- Portfolio Modal - Text-->
+								<p class="mb-4">Lorem ipsum dolor sit amet, consectetur
+									adipisicing elit. Mollitia neque assumenda ipsam nihil,
+									molestias magnam, recusandae quos quis inventore quisquam velit
+									asperiores, vitae? Reprehenderit soluta, eos quod consequuntur
+									itaque. Nam.</p>
+								<button class="btn btn-primary" href="#!"
+									data-bs-dismiss="modal">
+									<i class="fas fa-times fa-fw"></i> Close Window
+								</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- Portfolio Modal 2-->
+	<div class="portfolio-modal modal fade" id="portfolioModal2"
+		tabindex="-1" aria-labelledby="portfolioModal2" aria-hidden="true">
+		<div class="modal-dialog modal-xl">
+			<div class="modal-content">
+				<div class="modal-header border-0">
+					<button class="btn-close" type="button" data-bs-dismiss="modal"
+						aria-label="Close"></button>
+				</div>
+				<div class="modal-body text-center pb-5">
+					<div class="container">
+						<div class="row justify-content-center">
+							<div class="col-lg-8">
+								<!-- Portfolio Modal - Title-->
+								<h2
+									class="portfolio-modal-title text-secondary text-uppercase mb-0">Tasty
+									Cake</h2>
+								<!-- Icon Divider-->
+								<div class="divider-custom">
+									<div class="divider-custom-line"></div>
+									<div class="divider-custom-icon">
+										<i class="fas fa-star"></i>
+									</div>
+									<div class="divider-custom-line"></div>
+								</div>
+								<!-- Portfolio Modal - Image-->
+								<img class="img-fluid rounded mb-5"
+									src="assets/img/portfolio/cake.png" alt="..." />
+								<!-- Portfolio Modal - Text-->
+								<p class="mb-4">Lorem ipsum dolor sit amet, consectetur
+									adipisicing elit. Mollitia neque assumenda ipsam nihil,
+									molestias magnam, recusandae quos quis inventore quisquam velit
+									asperiores, vitae? Reprehenderit soluta, eos quod consequuntur
+									itaque. Nam.</p>
+								<button class="btn btn-primary" href="#!"
+									data-bs-dismiss="modal">
+									<i class="fas fa-times fa-fw"></i> Close Window
+								</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- Portfolio Modal 3-->
+	<div class="portfolio-modal modal fade" id="portfolioModal3"
+		tabindex="-1" aria-labelledby="portfolioModal3" aria-hidden="true">
+		<div class="modal-dialog modal-xl">
+			<div class="modal-content">
+				<div class="modal-header border-0">
+					<button class="btn-close" type="button" data-bs-dismiss="modal"
+						aria-label="Close"></button>
+				</div>
+				<div class="modal-body text-center pb-5">
+					<div class="container">
+						<div class="row justify-content-center">
+							<div class="col-lg-8">
+								<!-- Portfolio Modal - Title-->
+								<h2
+									class="portfolio-modal-title text-secondary text-uppercase mb-0">Circus
+									Tent</h2>
+								<!-- Icon Divider-->
+								<div class="divider-custom">
+									<div class="divider-custom-line"></div>
+									<div class="divider-custom-icon">
+										<i class="fas fa-star"></i>
+									</div>
+									<div class="divider-custom-line"></div>
+								</div>
+								<!-- Portfolio Modal - Image-->
+								<img class="img-fluid rounded mb-5"
+									src="assets/img/portfolio/circus.png" alt="..." />
+								<!-- Portfolio Modal - Text-->
+								<p class="mb-4">Lorem ipsum dolor sit amet, consectetur
+									adipisicing elit. Mollitia neque assumenda ipsam nihil,
+									molestias magnam, recusandae quos quis inventore quisquam velit
+									asperiores, vitae? Reprehenderit soluta, eos quod consequuntur
+									itaque. Nam.</p>
+								<button class="btn btn-primary" href="#!"
+									data-bs-dismiss="modal">
+									<i class="fas fa-times fa-fw"></i> Close Window
+								</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- Portfolio Modal 4-->
+	<div class="portfolio-modal modal fade" id="portfolioModal4"
+		tabindex="-1" aria-labelledby="portfolioModal4" aria-hidden="true">
+		<div class="modal-dialog modal-xl">
+			<div class="modal-content">
+				<div class="modal-header border-0">
+					<button class="btn-close" type="button" data-bs-dismiss="modal"
+						aria-label="Close"></button>
+				</div>
+				<div class="modal-body text-center pb-5">
+					<div class="container">
+						<div class="row justify-content-center">
+							<div class="col-lg-8">
+								<!-- Portfolio Modal - Title-->
+								<h2
+									class="portfolio-modal-title text-secondary text-uppercase mb-0">Controller</h2>
+								<!-- Icon Divider-->
+								<div class="divider-custom">
+									<div class="divider-custom-line"></div>
+									<div class="divider-custom-icon">
+										<i class="fas fa-star"></i>
+									</div>
+									<div class="divider-custom-line"></div>
+								</div>
+								<!-- Portfolio Modal - Image-->
+								<img class="img-fluid rounded mb-5"
+									src="assets/img/portfolio/game.png" alt="..." />
+								<!-- Portfolio Modal - Text-->
+								<p class="mb-4">Lorem ipsum dolor sit amet, consectetur
+									adipisicing elit. Mollitia neque assumenda ipsam nihil,
+									molestias magnam, recusandae quos quis inventore quisquam velit
+									asperiores, vitae? Reprehenderit soluta, eos quod consequuntur
+									itaque. Nam.</p>
+								<button class="btn btn-primary" href="#!"
+									data-bs-dismiss="modal">
+									<i class="fas fa-times fa-fw"></i> Close Window
+								</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- Portfolio Modal 5-->
+	<div class="portfolio-modal modal fade" id="portfolioModal5"
+		tabindex="-1" aria-labelledby="portfolioModal5" aria-hidden="true">
+		<div class="modal-dialog modal-xl">
+			<div class="modal-content">
+				<div class="modal-header border-0">
+					<button class="btn-close" type="button" data-bs-dismiss="modal"
+						aria-label="Close"></button>
+				</div>
+				<div class="modal-body text-center pb-5">
+					<div class="container">
+						<div class="row justify-content-center">
+							<div class="col-lg-8">
+								<!-- Portfolio Modal - Title-->
+								<h2
+									class="portfolio-modal-title text-secondary text-uppercase mb-0">Locked
+									Safe</h2>
+								<!-- Icon Divider-->
+								<div class="divider-custom">
+									<div class="divider-custom-line"></div>
+									<div class="divider-custom-icon">
+										<i class="fas fa-star"></i>
+									</div>
+									<div class="divider-custom-line"></div>
+								</div>
+								<!-- Portfolio Modal - Image-->
+								<img class="img-fluid rounded mb-5"
+									src="assets/img/portfolio/safe.png" alt="..." />
+								<!-- Portfolio Modal - Text-->
+								<p class="mb-4">Lorem ipsum dolor sit amet, consectetur
+									adipisicing elit. Mollitia neque assumenda ipsam nihil,
+									molestias magnam, recusandae quos quis inventore quisquam velit
+									asperiores, vitae? Reprehenderit soluta, eos quod consequuntur
+									itaque. Nam.</p>
+								<button class="btn btn-primary" href="#!"
+									data-bs-dismiss="modal">
+									<i class="fas fa-times fa-fw"></i> Close Window
+								</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- Portfolio Modal 6-->
+	<div class="portfolio-modal modal fade" id="portfolioModal6"
+		tabindex="-1" aria-labelledby="portfolioModal6" aria-hidden="true">
+		<div class="modal-dialog modal-xl">
+			<div class="modal-content">
+				<div class="modal-header border-0">
+					<button class="btn-close" type="button" data-bs-dismiss="modal"
+						aria-label="Close"></button>
+				</div>
+				<div class="modal-body text-center pb-5">
+					<div class="container">
+						<div class="row justify-content-center">
+							<div class="col-lg-8">
+								<!-- Portfolio Modal - Title-->
+								<h2
+									class="portfolio-modal-title text-secondary text-uppercase mb-0">Submarine</h2>
+								<!-- Icon Divider-->
+								<div class="divider-custom">
+									<div class="divider-custom-line"></div>
+									<div class="divider-custom-icon">
+										<i class="fas fa-star"></i>
+									</div>
+									<div class="divider-custom-line"></div>
+								</div>
+								<!-- Portfolio Modal - Image-->
+								<img class="img-fluid rounded mb-5"
+									src="assets/img/portfolio/submarine.png" alt="..." />
+								<!-- Portfolio Modal - Text-->
+								<p class="mb-4">Lorem ipsum dolor sit amet, consectetur
+									adipisicing elit. Mollitia neque assumenda ipsam nihil,
+									molestias magnam, recusandae quos quis inventore quisquam velit
+									asperiores, vitae? Reprehenderit soluta, eos quod consequuntur
+									itaque. Nam.</p>
+								<button class="btn btn-primary" href="#!"
+									data-bs-dismiss="modal">
+									<i class="fas fa-times fa-fw"></i> Close Window
+								</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- Bootstrap core JS-->
+	<script
+		src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+	<!-- Core theme JS-->
+	<script src="js/scripts.js"></script>
+	<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+	<!-- * *                               SB Forms JS                               * *-->
+	<!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
+	<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+	<script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
 </body>
-
 </html>
