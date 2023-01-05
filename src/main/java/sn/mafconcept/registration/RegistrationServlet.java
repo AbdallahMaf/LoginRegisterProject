@@ -11,6 +11,7 @@ import java.io.PrintWriter;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.PreparedStatement;
+import java.sql.SQLException;
 
 /**
  * Servlet implementation class RegistrationServlet
@@ -28,24 +29,38 @@ public class RegistrationServlet extends HttpServlet {
 		String upwd = request.getParameter("pass");
 		String umobile = request.getParameter("contact");
 		RequestDispatcher dispatcher = null;
+		Connection con = null;
 		
 		try {
 			Class.forName("com.mysql.cj.jdbc.Driver"); 
-			Connection con = DriverManager.getConnection("jdbc:mysql:localhost:3306/loginregisterdb","root",""); 
+			con = DriverManager.getConnection("jdbc:mysql://localhost:3306/loginregisterdb?useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC ","root",""); 
 			PreparedStatement pst = con.prepareStatement("insert into users(uname,upwd,uemail,umobile) values (?,?,?,?)");
 			pst.setString(1, uname);
 			pst.setString(2, upwd);
 			pst.setString(3, uemail);
 			pst.setString(4, umobile);
-			
+				
 			 int rowCount = pst.executeUpdate();
-			 
+			 dispatcher = request.getRequestDispatcher("registration.jsp"); 
+			  
 			 if(rowCount > 0) {
+				 request.setAttribute("status", "success");
 				 
-			 }
-		} catch (Exception e) {
-			// TODO: handle exception
-		}
+			 	}else {
+				 request.setAttribute("status", "failed");			 
+			 	}
+			 
+			 dispatcher.forward(request, response);
+			} catch (Exception e) {
+				e.printStackTrace();		
+			}finally {
+				try {
+					con.close();
+				} catch (SQLException e) {
+					// TODO Auto-generated catch block
+					e.printStackTrace();
+				}  
+			}
 		
 	}
 
