@@ -33,7 +33,7 @@ public class RegistrationServlet extends HttpServlet {
 		
 		try {
 			Class.forName("com.mysql.cj.jdbc.Driver"); 
-			con = DriverManager.getConnection("jdbc:mysql://localhost:3306/loginregisterdb?useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC ","root",""); 
+			con = DriverManager.getConnection("jdbc:mysql://localhost:3306/loginregisterdb?useSSL=false&useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC ","root",""); 
 			PreparedStatement pst = con.prepareStatement("insert into users(uname,upwd,uemail,umobile) values (?,?,?,?)");
 			pst.setString(1, uname);
 			pst.setString(2, upwd);
