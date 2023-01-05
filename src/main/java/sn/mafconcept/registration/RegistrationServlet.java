@@ -19,8 +19,17 @@ public class RegistrationServlet extends HttpServlet {
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) 
 			throws ServletException, IOException {
 		
+		String uname = request.getParameter("name");
+		String uemail = request.getParameter("email");
+		String upwd = request.getParameter("password");
+		String umobile = request.getParameter("contact");
+		
 		PrintWriter out = response.getWriter();
-		out.print("Working");
+		out.print(uname);
+		out.print(uemail);
+		out.print(upwd);
+		out.print(umobile);
+		
 	}
 
 }
